@@ -16,4 +16,4 @@ Optionally, you can select a theme from the toolbar.
 Currently, there are both **light** and **dark** themes available, as well as... a **pink** one?
 
 
-# And that's the entire application! It's VERY specific in its scope, but hey, you can shuffle CSV files *:D*
+## And that's the entire application! It's VERY specific in its scope, but hey, you can shuffle CSV files *:D*
