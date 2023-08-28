@@ -12,7 +12,7 @@ The two main functions of the application are:
 *2)* Shuffling the source files with splitting them into segments with a specific, customizable step (**right button**).
 
 
-Optionally, you can select a theme from the toolbar.
+Optionally, you can select a theme from the toolbar.\n
 Currently, there are both **light** and **dark** themes available, as well as... a **pink** one?
 
 
