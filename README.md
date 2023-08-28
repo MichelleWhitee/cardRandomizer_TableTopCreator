@@ -11,7 +11,7 @@ The two main functions of the application are:
 *1)* Shuffling rows in all source files and creating modified copies of them (**left button**).
 *2)* Shuffling the source files with splitting them into segments with a specific, customizable step (**right button**).
 
-### Optionally, you can select a theme from the toolbar.
+## Optionally, you can select a theme from the toolbar.
 Currently, there are both **light** and **dark** themes available, as well as... a **pink** one?
 
 And that's the entire application! It's VERY specific in its scope, but hey, you can shuffle CSV files *:D*
