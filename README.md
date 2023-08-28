@@ -9,8 +9,8 @@ To start, you need to place the necessary files in the "CSV_files" folder, which
 The output files will be generated in the "output_CSV" folder, which you can also open by clicking the folder icon button with an arrow.  
   
 The two main functions of the application are:  
-  *1)* Shuffling rows in all source files and creating modified copies of them (**left button**).  
-  *2)* Shuffling the source files with splitting them into segments with a specific, customizable step (**right button**).  
+    *1)* Shuffling rows in all source files and creating modified copies of them (**left button**).  
+    *2)* Shuffling the source files with splitting them into segments with a specific, customizable step (**right button**).  
   
   
 Optionally, you can select a theme from the toolbar.  
