@@ -3,6 +3,7 @@ Is used for randomize card CSV - files, or for other csv files if you need to ra
 I wanted to create an application for shuffling cards to generate new sets and print randomly arranged cards in a PDF.
 
 To start, you need to place the necessary files in the "CSV_files" folder, which you can access from the interface by clicking the folder icon button.
+
 **Note:** If you've launched the application and only then placed files into the folder, you need to press the "Refresh" button next to the text field. It's in this text field that the list of files in the folder will be displayed.
 
 The output files will be generated in the "output_CSV" folder, which you can also open by clicking the folder icon button with an arrow.
