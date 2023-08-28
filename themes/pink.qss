@@ -1,0 +1,58 @@
+/* softer_pink_theme.qss */
+
+/* Устанавливаем цвет фона и шрифта */
+QWidget {
+    background-color: #FCE4EC;
+    color: #FF69B4;
+    font-family: Arial, sans-serif;
+}
+
+/* Устанавливаем стиль для кнопок */
+QPushButton {
+    background-color: #ffb5c6;
+    color: #c93671;
+    border: 2px solid #FF69B4;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* При наведении на кнопку */
+QPushButton:hover {
+    background-color: #FFB6C1;
+    border: 2px solid #FFB6C1;
+}
+
+/* При нажатии на кнопку */
+QPushButton:pressed {
+    background-color: #FF8888;
+    border: 2px solid #FF8888;
+}
+
+/* Стиль для текстовых полей */
+QLineEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #FF69B4;
+    color: #FF69B4;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+/* Стиль для меток */
+QLabel {
+    color: #FF1493;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Стиль для прогресс-бара */
+QProgressBar {
+    border: 2px solid #FF69B4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Цвет прогресс-бара */
+QProgressBar::chunk {
+    background-color: #FF1493;
+    width: 10px;
+}
