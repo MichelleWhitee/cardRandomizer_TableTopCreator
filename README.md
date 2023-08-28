@@ -1,5 +1,5 @@
 # Card randomizer for "Table Top Creator".
-Is used for randomize card CSV - files, or for other csv files if you need to randomize them.
+Is used for randomize card CSV - files, or for other csv files if you need to randomize them.\
 I wanted to create an application for shuffling cards to generate new sets and print randomly arranged cards in a PDF.
 
 To start, you need to place the necessary files in the "CSV_files" folder, which you can access from the interface by clicking the folder icon button.
@@ -9,7 +9,7 @@ To start, you need to place the necessary files in the "CSV_files" folder, which
 The output files will be generated in the "output_CSV" folder, which you can also open by clicking the folder icon button with an arrow.
 
 The two main functions of the application are:\
-*1)* Shuffling rows in all source files and creating modified copies of them (**left button**).
+*1)* Shuffling rows in all source files and creating modified copies of them (**left button**).\
 *2)* Shuffling the source files with splitting them into segments with a specific, customizable step (**right button**).
 
 
