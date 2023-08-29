@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Рандомизатор карточной хуйни</string>
+   <string>CSV randomizer</string>
   </property>
   <property name="styleSheet">
    <string notr="true">/*
@@ -229,7 +229,7 @@ QStatusBar {
      <string notr="true"/>
     </property>
     <property name="text">
-     <string>Зарандомить</string>
+     <string>Перемешать</string>
     </property>
    </widget>
    <widget class="QProgressBar" name="progressBar">
@@ -255,8 +255,8 @@ QStatusBar {
      </rect>
     </property>
     <property name="text">
-     <string>Зарандомить 
- с вырезкой</string>
+     <string>Перемешать 
+ с разбиением на части</string>
     </property>
     <property name="flat">
      <bool>false</bool>

@@ -221,7 +221,7 @@ QStatusBar {
     </rect>
    </property>
    <property name="text">
-    <string>Зарандомить</string>
+    <string>Разбить файл</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="cutValue">
@@ -234,7 +234,7 @@ QStatusBar {
     </rect>
    </property>
    <property name="placeholderText">
-    <string>Шаг</string>
+    <string>Шаг разбиения</string>
    </property>
   </widget>
  </widget>
