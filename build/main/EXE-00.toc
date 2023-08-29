@@ -480,7 +480,7 @@
  [],
  False,
  False,
- 1693236514,
+ 1693306312,
  [('runw.exe',
    'E:\\Govnokod\\cardRandomizer\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')])
