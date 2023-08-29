@@ -221,7 +221,7 @@ QStatusBar {
     </rect>
    </property>
    <property name="text">
-    <string>Разбить файл</string>
+    <string>Разбить файлы</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="cutValue">
