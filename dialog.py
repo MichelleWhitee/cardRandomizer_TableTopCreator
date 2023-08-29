@@ -15,8 +15,8 @@ class Dialog(QDialog, Ui_Dialog):
         self.setWindowIcon(QtGui.QIcon('imgs/YoumuAava.ico'))
 
         # Привязка кнопок
-        self.randomize.clicked.connect(self.randomize_clicked)
-        self.randomize.clicked.connect(self.accept)
+        self.randomizeWC.clicked.connect(self.randomizeWC_clicked)
+        self.randomizeWC.clicked.connect(self.accept)
 
-    def randomize_clicked(self):
+    def randomizeWC_clicked(self):
         self.close()

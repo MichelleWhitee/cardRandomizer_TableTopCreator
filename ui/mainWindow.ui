@@ -382,7 +382,15 @@ QStatusBar {
     <addaction name="ElegantDark"/>
     <addaction name="Pink"/>
    </widget>
+   <widget class="QMenu" name="menuLanguage">
+    <property name="title">
+     <string>Language</string>
+    </property>
+    <addaction name="Russian"/>
+    <addaction name="English"/>
+   </widget>
    <addaction name="menu"/>
+   <addaction name="menuLanguage"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="MacOS">
@@ -398,6 +406,16 @@ QStatusBar {
   <action name="Pink">
    <property name="text">
     <string>Pink</string>
+   </property>
+  </action>
+  <action name="Russian">
+   <property name="text">
+    <string>Russian</string>
+   </property>
+  </action>
+  <action name="English">
+   <property name="text">
+    <string>English</string>
    </property>
   </action>
  </widget>

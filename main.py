@@ -7,13 +7,13 @@ import subprocess
 from PyQt5 import uic, QtGui, QtCore
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDialog, QMessageBox, QMenuBar
 from dialog import Dialog
+from PyQt5.QtCore import QLocale, QTranslator, QCoreApplication
 
 
 filePath = "CSV_files"
 outputPath = "output_CSV"
 
 directories = [filePath, outputPath]
-fileList = []
 cf = 0
 
 for dir in directories:
@@ -115,6 +115,31 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
         #Диалоговое окно
         self.dialog = Dialog()
+
+        #Локаль
+        self.Russian.triggered.connect(self.Russian_triggered)
+        self.English.triggered.connect(self.English_triggered)
+
+        self.translator = QTranslator()
+
+
+    def loadLanguage(self, language):
+        self.translator.load(f"locale/{language}.qm")
+        QApplication.instance().installTranslator(self.translator)
+
+        self.retranslateUI()
+
+    def retranslateUI(self):
+        self.randomize.setText(self.tr("Перемешать"))
+        self.randomizeWithCut.setText(self.tr("Перемешать \n с разбиением на части"))
+        self.menu.setTitle(self.tr("Выбор темы"))
+
+    def English_triggered(self):
+        self.loadLanguage("mainWindow_en")
+
+    def Russian_triggered(self):
+        QApplication.instance().removeTranslator(self.translator)
+        self.retranslateUI()
 
     def update_clicked(self):
         global fileList

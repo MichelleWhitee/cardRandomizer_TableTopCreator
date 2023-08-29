@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Перемешать с разбиением</string>
+   <string>Shuffle with partition</string>
   </property>
   <property name="styleSheet">
    <string notr="true">/*
@@ -211,7 +211,7 @@ QStatusBar {
 	color:rgb(240,240,240);
 }</string>
   </property>
-  <widget class="QPushButton" name="randomize">
+  <widget class="QPushButton" name="randomizeWC">
    <property name="geometry">
     <rect>
      <x>110</x>
@@ -221,7 +221,7 @@ QStatusBar {
     </rect>
    </property>
    <property name="text">
-    <string>Разбить файлы</string>
+    <string>OK</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="cutValue">
@@ -234,7 +234,7 @@ QStatusBar {
     </rect>
    </property>
    <property name="placeholderText">
-    <string>Шаг разбиения</string>
+    <string>Shuffle step</string>
    </property>
   </widget>
  </widget>
